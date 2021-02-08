@@ -1,19 +1,5 @@
-# movie-app
+# Movie App displaying data from:
+[https://developers.themoviedb.org/3/getting-started/introduction]
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Made with Vue.js
+[https://festive-shannon-7395b4.netlify.app/#/]
