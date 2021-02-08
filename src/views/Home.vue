@@ -1,13 +1,20 @@
 <template>
   <div class="home">
-    <h1>Home page</h1>
+    <h1>Movies</h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
   name: 'Home',
 }
 </script>
+
+<style scoped>
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
