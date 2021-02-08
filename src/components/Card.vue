@@ -31,6 +31,11 @@ export default {
   color: inherit;
 }
 
+.card:hover {
+  background: #2c3e50;
+  color: white;
+}
+
 .card__image {
   width: 100%;
   object-fit: cover;
