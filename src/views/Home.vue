@@ -45,9 +45,14 @@ export default {
 }
 
 .home__container {
-  margin: auto;
-  width: 60%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 </style>
