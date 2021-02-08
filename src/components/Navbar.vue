@@ -1,14 +1,14 @@
 <template>
   <nav class="navbar">
-    <router-link class="navbar__link" to="/">Home</router-link>
-    <router-link class="navbar__link" to="/about">About</router-link>
+    <div class="navbar__container">
+      <router-link class="navbar__link" to="/">Home</router-link>
+      <router-link class="navbar__link" to="/about">About</router-link>
+    </div>
   </nav>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
@@ -19,10 +19,16 @@ export default {
   top: 0;
   left: 0;
   right: 0;
+  background: #2c3e50;
+  z-index: 1;
+}
+
+.navbar__container {
+  width: 80%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #2c3e50;
 }
 
 .navbar__link {
