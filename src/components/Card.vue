@@ -32,6 +32,7 @@ export default {
 }
 
 .card__image {
+  width: 100%;
   object-fit: cover;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
