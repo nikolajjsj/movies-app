@@ -2,7 +2,7 @@
   <div class="movie" v-if="movie">
     <img class="movie__backdrop" :src="backdropUrl" alt="movie poster" />
     <h1 class="movie__title">{{ movie.title }}</h1>
-    <h2 class="movie__overview">{{ movie.overview }}</h2>
+    <h3 class="movie__overview">{{ movie.overview }}</h3>
     <h3 class="movie__release">Released: {{ movie.release_date }}</h3>
     <h3 class="movie__score">Score: {{ movie.vote_average }}/10</h3>
     <a class="movie__imdb" :href="imdbUrl"> IMDb </a>
@@ -48,6 +48,7 @@ export default {
   left: 0;
   right: 0;
   margin: 2rem auto;
+  padding: 2rem;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -66,7 +67,7 @@ export default {
 }
 
 .movie__overview {
-  text-align: justify;
+  text-align: center;
 }
 
 .movie__imdb {
